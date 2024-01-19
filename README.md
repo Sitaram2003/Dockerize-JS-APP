@@ -47,11 +47,12 @@ Step 4: Start your nodejs application locally - go to app directory of project
 
 Step 5: Access you nodejs application UI from browser
 
-https://localhost:3000
+> https://localhost:3000
 
 step 6: To build a docker image from the application
 
 > docker build -t my-app:1.0 .
+
 ( . indicates the location of docker file )
 
 step 7: Rename the docker image by usinf tag command
