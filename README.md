@@ -55,9 +55,9 @@ step 6: To build a docker image from the application
 
 ( . indicates the location of docker file )
 
-step 7: Rename the docker image by usinf tag command
+step 7: Rename the docker image by using tag command
 
-> docker tag <old image name>:<tag> icr.io/<name space name>/<new image name>:<tag>
+> docker tag <old_image>:<tag> icr.io/<name_space>/<new_image_name>:<tag>
 
 step 8: Login into the IBM Cloud CLI by using unique Command from profile dashboard
 
